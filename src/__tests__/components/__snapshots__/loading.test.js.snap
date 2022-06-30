@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading renders correctly 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-centered-1"
+>
+  <WithStyles(ForwardRef(CircularProgress))
+    color="secondary"
+  />
+</Styled(MuiBox)>
+`;

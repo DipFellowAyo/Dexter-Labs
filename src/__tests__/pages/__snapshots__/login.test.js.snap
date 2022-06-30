@@ -1,0 +1,951 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page should render Login page without crashing 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "0k4ste",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "0k4ste",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Login>
+      <AuthPageLayout
+        title="Sign in"
+      >
+        <Styled(MuiBox)
+          className="makeStyles-root-6"
+          flexGrow="1"
+        >
+          <div
+            className="MuiBox-root MuiBox-root-14 makeStyles-root-6"
+          >
+            <Styled(MuiBox)
+              className="makeStyles-gridContainer-7"
+            >
+              <div
+                className="MuiBox-root MuiBox-root-15 makeStyles-gridContainer-7"
+              >
+                <Styled(MuiBox)
+                  className="makeStyles-leftFrame-8"
+                >
+                  <div
+                    className="MuiBox-root MuiBox-root-16 makeStyles-leftFrame-8"
+                  >
+                    <Link
+                      className="makeStyles-flexStyles-11"
+                      to="/"
+                    >
+                      <LinkAnchor
+                        className="makeStyles-flexStyles-11"
+                        href="/"
+                        navigate={[Function]}
+                      >
+                        <a
+                          className="makeStyles-flexStyles-11"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          <Styled(MuiBox)
+                            alt="logo"
+                            component="img"
+                            src="/vectors/logo.svg"
+                          >
+                            <img
+                              alt="logo"
+                              className="MuiBox-root MuiBox-root-17"
+                              src="/vectors/logo.svg"
+                            />
+                          </Styled(MuiBox)>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                    <Styled(MuiBox)
+                      className="makeStyles-imageContainer-9"
+                    >
+                      <div
+                        className="MuiBox-root MuiBox-root-18 makeStyles-imageContainer-9"
+                      >
+                        <Styled(MuiBox)
+                          alt="office"
+                          component="img"
+                          display="block"
+                          margin="0 auto"
+                          src="/vectors/office.svg"
+                        >
+                          <img
+                            alt="office"
+                            className="MuiBox-root MuiBox-root-19"
+                            src="/vectors/office.svg"
+                          />
+                        </Styled(MuiBox)>
+                      </div>
+                    </Styled(MuiBox)>
+                  </div>
+                </Styled(MuiBox)>
+                <Styled(MuiBox)
+                  className="makeStyles-rightFrame-10"
+                >
+                  <div
+                    className="MuiBox-root MuiBox-root-20 makeStyles-rightFrame-10"
+                  >
+                    <Styled(MuiBox)
+                      className="makeStyles-formContainer-12"
+                    >
+                      <div
+                        className="MuiBox-root MuiBox-root-21 makeStyles-formContainer-12"
+                      >
+                        <Styled(MuiBox)
+                          className="makeStyles-title-13"
+                          component="h2"
+                          my={0}
+                        >
+                          <h2
+                            className="MuiBox-root MuiBox-root-22 makeStyles-title-13"
+                          >
+                            Sign in
+                          </h2>
+                        </Styled(MuiBox)>
+                        <Styled(MuiBox)
+                          mt={14}
+                        >
+                          <div
+                            className="MuiBox-root MuiBox-root-23"
+                          >
+                            <Formik
+                              initialValues={
+                                Object {
+                                  "password": "",
+                                  "username": "",
+                                }
+                              }
+                              validationSchema={
+                                ObjectSchema {
+                                  "_blacklist": ReferenceSet {
+                                    "list": Set {},
+                                    "refs": Map {},
+                                  },
+                                  "_excludedEdges": Array [],
+                                  "_mutate": undefined,
+                                  "_nodes": Array [
+                                    "password",
+                                    "username",
+                                  ],
+                                  "_sortErrors": [Function],
+                                  "_typeError": [Function],
+                                  "_whitelist": ReferenceSet {
+                                    "list": Set {},
+                                    "refs": Map {},
+                                  },
+                                  "conditions": Array [],
+                                  "deps": Array [],
+                                  "exclusiveTests": Object {},
+                                  "fields": Object {
+                                    "password": StringSchema {
+                                      "_blacklist": ReferenceSet {
+                                        "list": Set {},
+                                        "refs": Map {},
+                                      },
+                                      "_blacklistError": undefined,
+                                      "_typeError": [Function],
+                                      "_whitelist": ReferenceSet {
+                                        "list": Set {},
+                                        "refs": Map {},
+                                      },
+                                      "_whitelistError": undefined,
+                                      "conditions": Array [],
+                                      "deps": Array [],
+                                      "exclusiveTests": Object {
+                                        "min": true,
+                                        "required": true,
+                                      },
+                                      "spec": Object {
+                                        "abortEarly": true,
+                                        "nullable": false,
+                                        "presence": "required",
+                                        "recursive": true,
+                                        "strict": false,
+                                        "strip": false,
+                                      },
+                                      "tests": Array [
+                                        [Function],
+                                        [Function],
+                                      ],
+                                      "transforms": Array [
+                                        [Function],
+                                      ],
+                                      "type": "string",
+                                    },
+                                    "username": StringSchema {
+                                      "_blacklist": ReferenceSet {
+                                        "list": Set {},
+                                        "refs": Map {},
+                                      },
+                                      "_blacklistError": undefined,
+                                      "_mutate": undefined,
+                                      "_typeError": [Function],
+                                      "_whitelist": ReferenceSet {
+                                        "list": Set {},
+                                        "refs": Map {},
+                                      },
+                                      "_whitelistError": undefined,
+                                      "conditions": Array [],
+                                      "deps": Array [],
+                                      "exclusiveTests": Object {
+                                        "required": true,
+                                      },
+                                      "spec": Object {
+                                        "abortEarly": true,
+                                        "nullable": false,
+                                        "presence": "required",
+                                        "recursive": true,
+                                        "strict": false,
+                                        "strip": false,
+                                      },
+                                      "tests": Array [
+                                        [Function],
+                                      ],
+                                      "transforms": Array [
+                                        [Function],
+                                      ],
+                                      "type": "string",
+                                    },
+                                  },
+                                  "spec": Object {
+                                    "abortEarly": true,
+                                    "nullable": false,
+                                    "presence": "optional",
+                                    "recursive": true,
+                                    "strict": false,
+                                    "strip": false,
+                                  },
+                                  "tests": Array [],
+                                  "transforms": Array [
+                                    [Function],
+                                  ],
+                                  "type": "object",
+                                }
+                              }
+                            >
+                              <Form
+                                onSubmit={[Function]}
+                              >
+                                <form
+                                  action="#"
+                                  onReset={[Function]}
+                                  onSubmit={[Function]}
+                                >
+                                  <Styled(MuiBox)
+                                    mb={11}
+                                  >
+                                    <div
+                                      className="MuiBox-root MuiBox-root-24"
+                                    >
+                                      <InputField
+                                        name="username"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        placeholder="Username"
+                                        type="text"
+                                        value=""
+                                      >
+                                        <WithStyles(ForwardRef(FormControl))
+                                          fullWidth={true}
+                                        >
+                                          <ForwardRef(FormControl)
+                                            classes={
+                                              Object {
+                                                "fullWidth": "MuiFormControl-fullWidth",
+                                                "marginDense": "MuiFormControl-marginDense",
+                                                "marginNormal": "MuiFormControl-marginNormal",
+                                                "root": "MuiFormControl-root",
+                                              }
+                                            }
+                                            fullWidth={true}
+                                          >
+                                            <div
+                                              className="MuiFormControl-root MuiFormControl-fullWidth"
+                                            >
+                                              <WithStyles(ForwardRef(TextField))
+                                                name="username"
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                placeholder="Username"
+                                                type="text"
+                                                value=""
+                                              >
+                                                <ForwardRef(TextField)
+                                                  classes={
+                                                    Object {
+                                                      "root": "MuiTextField-root",
+                                                    }
+                                                  }
+                                                  name="username"
+                                                  onBlur={[Function]}
+                                                  onChange={[Function]}
+                                                  placeholder="Username"
+                                                  type="text"
+                                                  value=""
+                                                >
+                                                  <WithStyles(ForwardRef(FormControl))
+                                                    className="MuiTextField-root"
+                                                    color="primary"
+                                                    disabled={false}
+                                                    error={false}
+                                                    fullWidth={false}
+                                                    required={false}
+                                                    variant="standard"
+                                                  >
+                                                    <ForwardRef(FormControl)
+                                                      className="MuiTextField-root"
+                                                      classes={
+                                                        Object {
+                                                          "fullWidth": "MuiFormControl-fullWidth",
+                                                          "marginDense": "MuiFormControl-marginDense",
+                                                          "marginNormal": "MuiFormControl-marginNormal",
+                                                          "root": "MuiFormControl-root",
+                                                        }
+                                                      }
+                                                      color="primary"
+                                                      disabled={false}
+                                                      error={false}
+                                                      fullWidth={false}
+                                                      required={false}
+                                                      variant="standard"
+                                                    >
+                                                      <div
+                                                        className="MuiFormControl-root MuiTextField-root"
+                                                      >
+                                                        <WithStyles(ForwardRef(Input))
+                                                          autoFocus={false}
+                                                          fullWidth={false}
+                                                          multiline={false}
+                                                          name="username"
+                                                          onBlur={[Function]}
+                                                          onChange={[Function]}
+                                                          placeholder="Username"
+                                                          type="text"
+                                                          value=""
+                                                        >
+                                                          <ForwardRef(Input)
+                                                            autoFocus={false}
+                                                            classes={
+                                                              Object {
+                                                                "colorSecondary": "MuiInput-colorSecondary",
+                                                                "disabled": "Mui-disabled",
+                                                                "error": "Mui-error",
+                                                                "focused": "Mui-focused",
+                                                                "formControl": "MuiInput-formControl",
+                                                                "fullWidth": "MuiInput-fullWidth",
+                                                                "input": "MuiInput-input",
+                                                                "inputMarginDense": "MuiInput-inputMarginDense",
+                                                                "inputMultiline": "MuiInput-inputMultiline",
+                                                                "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                                                "marginDense": "MuiInput-marginDense",
+                                                                "multiline": "MuiInput-multiline",
+                                                                "root": "MuiInput-root",
+                                                                "underline": "MuiInput-underline",
+                                                              }
+                                                            }
+                                                            fullWidth={false}
+                                                            multiline={false}
+                                                            name="username"
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            placeholder="Username"
+                                                            type="text"
+                                                            value=""
+                                                          >
+                                                            <WithStyles(ForwardRef(InputBase))
+                                                              autoFocus={false}
+                                                              classes={
+                                                                Object {
+                                                                  "colorSecondary": "MuiInput-colorSecondary",
+                                                                  "disabled": "Mui-disabled",
+                                                                  "error": "Mui-error",
+                                                                  "focused": "Mui-focused",
+                                                                  "formControl": "MuiInput-formControl",
+                                                                  "fullWidth": "MuiInput-fullWidth",
+                                                                  "input": "MuiInput-input",
+                                                                  "inputMarginDense": "MuiInput-inputMarginDense",
+                                                                  "inputMultiline": "MuiInput-inputMultiline",
+                                                                  "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                                                  "marginDense": "MuiInput-marginDense",
+                                                                  "multiline": "MuiInput-multiline",
+                                                                  "root": "MuiInput-root MuiInput-underline",
+                                                                  "underline": null,
+                                                                }
+                                                              }
+                                                              fullWidth={false}
+                                                              inputComponent="input"
+                                                              multiline={false}
+                                                              name="username"
+                                                              onBlur={[Function]}
+                                                              onChange={[Function]}
+                                                              placeholder="Username"
+                                                              type="text"
+                                                              value=""
+                                                            >
+                                                              <ForwardRef(InputBase)
+                                                                autoFocus={false}
+                                                                classes={
+                                                                  Object {
+                                                                    "adornedEnd": "MuiInputBase-adornedEnd",
+                                                                    "adornedStart": "MuiInputBase-adornedStart",
+                                                                    "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                                                                    "disabled": "Mui-disabled Mui-disabled",
+                                                                    "error": "Mui-error Mui-error",
+                                                                    "focused": "Mui-focused Mui-focused",
+                                                                    "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                                                                    "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                                                                    "input": "MuiInputBase-input MuiInput-input",
+                                                                    "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                                                    "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                                                    "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                                                    "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                                                                    "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                                                                    "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                                                                    "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                                                                    "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                                                                    "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                                                                  }
+                                                                }
+                                                                fullWidth={false}
+                                                                inputComponent="input"
+                                                                multiline={false}
+                                                                name="username"
+                                                                onBlur={[Function]}
+                                                                onChange={[Function]}
+                                                                placeholder="Username"
+                                                                type="text"
+                                                                value=""
+                                                              >
+                                                                <div
+                                                                  className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                                                                  onClick={[Function]}
+                                                                >
+                                                                  <input
+                                                                    aria-invalid={false}
+                                                                    autoFocus={false}
+                                                                    className="MuiInputBase-input MuiInput-input"
+                                                                    disabled={false}
+                                                                    name="username"
+                                                                    onAnimationStart={[Function]}
+                                                                    onBlur={[Function]}
+                                                                    onChange={[Function]}
+                                                                    onFocus={[Function]}
+                                                                    placeholder="Username"
+                                                                    required={false}
+                                                                    type="text"
+                                                                    value=""
+                                                                  />
+                                                                </div>
+                                                              </ForwardRef(InputBase)>
+                                                            </WithStyles(ForwardRef(InputBase))>
+                                                          </ForwardRef(Input)>
+                                                        </WithStyles(ForwardRef(Input))>
+                                                      </div>
+                                                    </ForwardRef(FormControl)>
+                                                  </WithStyles(ForwardRef(FormControl))>
+                                                </ForwardRef(TextField)>
+                                              </WithStyles(ForwardRef(TextField))>
+                                            </div>
+                                          </ForwardRef(FormControl)>
+                                        </WithStyles(ForwardRef(FormControl))>
+                                      </InputField>
+                                    </div>
+                                  </Styled(MuiBox)>
+                                  <Styled(MuiBox)>
+                                    <div
+                                      className="MuiBox-root MuiBox-root-25"
+                                    >
+                                      <InputField
+                                        name="password"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        placeholder="Password"
+                                        type="password"
+                                        value=""
+                                      >
+                                        <WithStyles(ForwardRef(FormControl))
+                                          fullWidth={true}
+                                        >
+                                          <ForwardRef(FormControl)
+                                            classes={
+                                              Object {
+                                                "fullWidth": "MuiFormControl-fullWidth",
+                                                "marginDense": "MuiFormControl-marginDense",
+                                                "marginNormal": "MuiFormControl-marginNormal",
+                                                "root": "MuiFormControl-root",
+                                              }
+                                            }
+                                            fullWidth={true}
+                                          >
+                                            <div
+                                              className="MuiFormControl-root MuiFormControl-fullWidth"
+                                            >
+                                              <WithStyles(ForwardRef(TextField))
+                                                name="password"
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                placeholder="Password"
+                                                type="password"
+                                                value=""
+                                              >
+                                                <ForwardRef(TextField)
+                                                  classes={
+                                                    Object {
+                                                      "root": "MuiTextField-root",
+                                                    }
+                                                  }
+                                                  name="password"
+                                                  onBlur={[Function]}
+                                                  onChange={[Function]}
+                                                  placeholder="Password"
+                                                  type="password"
+                                                  value=""
+                                                >
+                                                  <WithStyles(ForwardRef(FormControl))
+                                                    className="MuiTextField-root"
+                                                    color="primary"
+                                                    disabled={false}
+                                                    error={false}
+                                                    fullWidth={false}
+                                                    required={false}
+                                                    variant="standard"
+                                                  >
+                                                    <ForwardRef(FormControl)
+                                                      className="MuiTextField-root"
+                                                      classes={
+                                                        Object {
+                                                          "fullWidth": "MuiFormControl-fullWidth",
+                                                          "marginDense": "MuiFormControl-marginDense",
+                                                          "marginNormal": "MuiFormControl-marginNormal",
+                                                          "root": "MuiFormControl-root",
+                                                        }
+                                                      }
+                                                      color="primary"
+                                                      disabled={false}
+                                                      error={false}
+                                                      fullWidth={false}
+                                                      required={false}
+                                                      variant="standard"
+                                                    >
+                                                      <div
+                                                        className="MuiFormControl-root MuiTextField-root"
+                                                      >
+                                                        <WithStyles(ForwardRef(Input))
+                                                          autoFocus={false}
+                                                          fullWidth={false}
+                                                          multiline={false}
+                                                          name="password"
+                                                          onBlur={[Function]}
+                                                          onChange={[Function]}
+                                                          placeholder="Password"
+                                                          type="password"
+                                                          value=""
+                                                        >
+                                                          <ForwardRef(Input)
+                                                            autoFocus={false}
+                                                            classes={
+                                                              Object {
+                                                                "colorSecondary": "MuiInput-colorSecondary",
+                                                                "disabled": "Mui-disabled",
+                                                                "error": "Mui-error",
+                                                                "focused": "Mui-focused",
+                                                                "formControl": "MuiInput-formControl",
+                                                                "fullWidth": "MuiInput-fullWidth",
+                                                                "input": "MuiInput-input",
+                                                                "inputMarginDense": "MuiInput-inputMarginDense",
+                                                                "inputMultiline": "MuiInput-inputMultiline",
+                                                                "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                                                "marginDense": "MuiInput-marginDense",
+                                                                "multiline": "MuiInput-multiline",
+                                                                "root": "MuiInput-root",
+                                                                "underline": "MuiInput-underline",
+                                                              }
+                                                            }
+                                                            fullWidth={false}
+                                                            multiline={false}
+                                                            name="password"
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            placeholder="Password"
+                                                            type="password"
+                                                            value=""
+                                                          >
+                                                            <WithStyles(ForwardRef(InputBase))
+                                                              autoFocus={false}
+                                                              classes={
+                                                                Object {
+                                                                  "colorSecondary": "MuiInput-colorSecondary",
+                                                                  "disabled": "Mui-disabled",
+                                                                  "error": "Mui-error",
+                                                                  "focused": "Mui-focused",
+                                                                  "formControl": "MuiInput-formControl",
+                                                                  "fullWidth": "MuiInput-fullWidth",
+                                                                  "input": "MuiInput-input",
+                                                                  "inputMarginDense": "MuiInput-inputMarginDense",
+                                                                  "inputMultiline": "MuiInput-inputMultiline",
+                                                                  "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                                                  "marginDense": "MuiInput-marginDense",
+                                                                  "multiline": "MuiInput-multiline",
+                                                                  "root": "MuiInput-root MuiInput-underline",
+                                                                  "underline": null,
+                                                                }
+                                                              }
+                                                              fullWidth={false}
+                                                              inputComponent="input"
+                                                              multiline={false}
+                                                              name="password"
+                                                              onBlur={[Function]}
+                                                              onChange={[Function]}
+                                                              placeholder="Password"
+                                                              type="password"
+                                                              value=""
+                                                            >
+                                                              <ForwardRef(InputBase)
+                                                                autoFocus={false}
+                                                                classes={
+                                                                  Object {
+                                                                    "adornedEnd": "MuiInputBase-adornedEnd",
+                                                                    "adornedStart": "MuiInputBase-adornedStart",
+                                                                    "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                                                                    "disabled": "Mui-disabled Mui-disabled",
+                                                                    "error": "Mui-error Mui-error",
+                                                                    "focused": "Mui-focused Mui-focused",
+                                                                    "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                                                                    "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                                                                    "input": "MuiInputBase-input MuiInput-input",
+                                                                    "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                                                    "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                                                    "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                                                    "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                                                                    "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                                                                    "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                                                                    "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                                                                    "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                                                                    "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                                                                  }
+                                                                }
+                                                                fullWidth={false}
+                                                                inputComponent="input"
+                                                                multiline={false}
+                                                                name="password"
+                                                                onBlur={[Function]}
+                                                                onChange={[Function]}
+                                                                placeholder="Password"
+                                                                type="password"
+                                                                value=""
+                                                              >
+                                                                <div
+                                                                  className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                                                                  onClick={[Function]}
+                                                                >
+                                                                  <input
+                                                                    aria-invalid={false}
+                                                                    autoFocus={false}
+                                                                    className="MuiInputBase-input MuiInput-input"
+                                                                    disabled={false}
+                                                                    name="password"
+                                                                    onAnimationStart={[Function]}
+                                                                    onBlur={[Function]}
+                                                                    onChange={[Function]}
+                                                                    onFocus={[Function]}
+                                                                    placeholder="Password"
+                                                                    required={false}
+                                                                    type="password"
+                                                                    value=""
+                                                                  />
+                                                                </div>
+                                                              </ForwardRef(InputBase)>
+                                                            </WithStyles(ForwardRef(InputBase))>
+                                                          </ForwardRef(Input)>
+                                                        </WithStyles(ForwardRef(Input))>
+                                                      </div>
+                                                    </ForwardRef(FormControl)>
+                                                  </WithStyles(ForwardRef(FormControl))>
+                                                </ForwardRef(TextField)>
+                                              </WithStyles(ForwardRef(TextField))>
+                                            </div>
+                                          </ForwardRef(FormControl)>
+                                        </WithStyles(ForwardRef(FormControl))>
+                                      </InputField>
+                                      <Styled(MuiBox)
+                                        className="makeStyles-flexStyles-1 makeStyles-textStyles-3"
+                                        component={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "propTypes": Object {
+                                              "innerRef": [Function],
+                                              "onClick": [Function],
+                                              "replace": [Function],
+                                              "target": [Function],
+                                              "to": [Function],
+                                            },
+                                            "render": [Function],
+                                          }
+                                        }
+                                        to="/forgot-password"
+                                      >
+                                        <Link
+                                          className="MuiBox-root MuiBox-root-26 makeStyles-flexStyles-1 makeStyles-textStyles-3"
+                                          to="/forgot-password"
+                                        >
+                                          <LinkAnchor
+                                            className="MuiBox-root MuiBox-root-26 makeStyles-flexStyles-1 makeStyles-textStyles-3"
+                                            href="/forgot-password"
+                                            navigate={[Function]}
+                                          >
+                                            <a
+                                              className="MuiBox-root MuiBox-root-26 makeStyles-flexStyles-1 makeStyles-textStyles-3"
+                                              href="/forgot-password"
+                                              onClick={[Function]}
+                                            >
+                                              Forgot Password?
+                                            </a>
+                                          </LinkAnchor>
+                                        </Link>
+                                      </Styled(MuiBox)>
+                                      <Styled(MuiBox)
+                                        className="makeStyles-centerButton-2 makeStyles-flexStyles-1"
+                                        mt={11}
+                                      >
+                                        <div
+                                          className="MuiBox-root MuiBox-root-27 makeStyles-centerButton-2 makeStyles-flexStyles-1"
+                                        >
+                                          <ButtonBase
+                                            color="primary"
+                                            disabled={false}
+                                            text="Sign in"
+                                            type="submit"
+                                            variant="contained"
+                                          >
+                                            <WithStyles(ForwardRef(Button))
+                                              className="makeStyles-buttonStyles-28"
+                                              color="primary"
+                                              disableElevation={true}
+                                              disabled={false}
+                                              type="submit"
+                                              variant="contained"
+                                            >
+                                              <ForwardRef(Button)
+                                                className="makeStyles-buttonStyles-28"
+                                                classes={
+                                                  Object {
+                                                    "colorInherit": "MuiButton-colorInherit",
+                                                    "contained": "MuiButton-contained",
+                                                    "containedPrimary": "MuiButton-containedPrimary",
+                                                    "containedSecondary": "MuiButton-containedSecondary",
+                                                    "containedSizeLarge": "MuiButton-containedSizeLarge",
+                                                    "containedSizeSmall": "MuiButton-containedSizeSmall",
+                                                    "disableElevation": "MuiButton-disableElevation",
+                                                    "disabled": "Mui-disabled",
+                                                    "endIcon": "MuiButton-endIcon",
+                                                    "focusVisible": "Mui-focusVisible",
+                                                    "fullWidth": "MuiButton-fullWidth",
+                                                    "iconSizeLarge": "MuiButton-iconSizeLarge",
+                                                    "iconSizeMedium": "MuiButton-iconSizeMedium",
+                                                    "iconSizeSmall": "MuiButton-iconSizeSmall",
+                                                    "label": "MuiButton-label",
+                                                    "outlined": "MuiButton-outlined",
+                                                    "outlinedPrimary": "MuiButton-outlinedPrimary",
+                                                    "outlinedSecondary": "MuiButton-outlinedSecondary",
+                                                    "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                                                    "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                                                    "root": "MuiButton-root",
+                                                    "sizeLarge": "MuiButton-sizeLarge",
+                                                    "sizeSmall": "MuiButton-sizeSmall",
+                                                    "startIcon": "MuiButton-startIcon",
+                                                    "text": "MuiButton-text",
+                                                    "textPrimary": "MuiButton-textPrimary",
+                                                    "textSecondary": "MuiButton-textSecondary",
+                                                    "textSizeLarge": "MuiButton-textSizeLarge",
+                                                    "textSizeSmall": "MuiButton-textSizeSmall",
+                                                  }
+                                                }
+                                                color="primary"
+                                                disableElevation={true}
+                                                disabled={false}
+                                                type="submit"
+                                                variant="contained"
+                                              >
+                                                <WithStyles(ForwardRef(ButtonBase))
+                                                  className="MuiButton-root MuiButton-contained makeStyles-buttonStyles-28 MuiButton-containedPrimary MuiButton-disableElevation"
+                                                  component="button"
+                                                  disabled={false}
+                                                  focusRipple={true}
+                                                  focusVisibleClassName="Mui-focusVisible"
+                                                  type="submit"
+                                                >
+                                                  <ForwardRef(ButtonBase)
+                                                    className="MuiButton-root MuiButton-contained makeStyles-buttonStyles-28 MuiButton-containedPrimary MuiButton-disableElevation"
+                                                    classes={
+                                                      Object {
+                                                        "disabled": "Mui-disabled",
+                                                        "focusVisible": "Mui-focusVisible",
+                                                        "root": "MuiButtonBase-root",
+                                                      }
+                                                    }
+                                                    component="button"
+                                                    disabled={false}
+                                                    focusRipple={true}
+                                                    focusVisibleClassName="Mui-focusVisible"
+                                                    type="submit"
+                                                  >
+                                                    <button
+                                                      className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-buttonStyles-28 MuiButton-containedPrimary MuiButton-disableElevation"
+                                                      disabled={false}
+                                                      onBlur={[Function]}
+                                                      onDragLeave={[Function]}
+                                                      onFocus={[Function]}
+                                                      onKeyDown={[Function]}
+                                                      onKeyUp={[Function]}
+                                                      onMouseDown={[Function]}
+                                                      onMouseLeave={[Function]}
+                                                      onMouseUp={[Function]}
+                                                      onTouchEnd={[Function]}
+                                                      onTouchMove={[Function]}
+                                                      onTouchStart={[Function]}
+                                                      tabIndex={0}
+                                                      type="submit"
+                                                    >
+                                                      <span
+                                                        className="MuiButton-label"
+                                                      >
+                                                        Sign in
+                                                      </span>
+                                                      <WithStyles(memo)
+                                                        center={false}
+                                                      >
+                                                        <ForwardRef(TouchRipple)
+                                                          center={false}
+                                                          classes={
+                                                            Object {
+                                                              "child": "MuiTouchRipple-child",
+                                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                                              "ripple": "MuiTouchRipple-ripple",
+                                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                              "root": "MuiTouchRipple-root",
+                                                            }
+                                                          }
+                                                        >
+                                                          <span
+                                                            className="MuiTouchRipple-root"
+                                                          >
+                                                            <TransitionGroup
+                                                              childFactory={[Function]}
+                                                              component={null}
+                                                              exit={true}
+                                                            />
+                                                          </span>
+                                                        </ForwardRef(TouchRipple)>
+                                                      </WithStyles(memo)>
+                                                    </button>
+                                                  </ForwardRef(ButtonBase)>
+                                                </WithStyles(ForwardRef(ButtonBase))>
+                                              </ForwardRef(Button)>
+                                            </WithStyles(ForwardRef(Button))>
+                                          </ButtonBase>
+                                        </div>
+                                      </Styled(MuiBox)>
+                                      <Styled(MuiBox)
+                                        className="makeStyles-text-4"
+                                        color="#6f6f6f"
+                                        component="p"
+                                        mt={15}
+                                        textAlign="center"
+                                      >
+                                        <p
+                                          className="MuiBox-root MuiBox-root-29 makeStyles-text-4"
+                                        >
+                                          Get an employee registered?
+                                           
+                                          <Styled(MuiBox)
+                                            component={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "propTypes": Object {
+                                                  "innerRef": [Function],
+                                                  "onClick": [Function],
+                                                  "replace": [Function],
+                                                  "target": [Function],
+                                                  "to": [Function],
+                                                },
+                                                "render": [Function],
+                                              }
+                                            }
+                                            fontSize="1rem"
+                                            fontWeight="bolder"
+                                            to="/register"
+                                          >
+                                            <Link
+                                              className="MuiBox-root MuiBox-root-30"
+                                              to="/register"
+                                            >
+                                              <LinkAnchor
+                                                className="MuiBox-root MuiBox-root-30"
+                                                href="/register"
+                                                navigate={[Function]}
+                                              >
+                                                <a
+                                                  className="MuiBox-root MuiBox-root-30"
+                                                  href="/register"
+                                                  onClick={[Function]}
+                                                >
+                                                  Register new
+                                                </a>
+                                              </LinkAnchor>
+                                            </Link>
+                                          </Styled(MuiBox)>
+                                        </p>
+                                      </Styled(MuiBox)>
+                                    </div>
+                                  </Styled(MuiBox)>
+                                </form>
+                              </Form>
+                            </Formik>
+                          </div>
+                        </Styled(MuiBox)>
+                      </div>
+                    </Styled(MuiBox)>
+                  </div>
+                </Styled(MuiBox)>
+              </div>
+            </Styled(MuiBox)>
+          </div>
+        </Styled(MuiBox)>
+      </AuthPageLayout>
+    </Login>
+  </Router>
+</MemoryRouter>
+`;

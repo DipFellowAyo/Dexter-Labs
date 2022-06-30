@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component renders a IconButton component to match snapshot 1`] = `
+<WithStyles(ForwardRef(IconButton))
+  className="makeStyles-iconButtonStyles-4"
+>
+  <Styled(MuiBox)
+    alt="avatar"
+    component="img"
+    src="/vectors/avatar.svg"
+  />
+</WithStyles(ForwardRef(IconButton))>
+`;
+
+exports[`Navbar component renders a MessageBadge component to match snapshot 1`] = `
+<MessageBadge
+  className="makeStyles-message-7"
+  img="/vectors/message.svg"
+/>
+`;
+
+exports[`Navbar component renders a NotificationBadge component to match snapshots 1`] = `<NotificationBadge />`;
+
+exports[`Navbar component renders correctly 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-appBarStyles-1"
+  component="nav"
+>
+  <Link
+    to="/"
+  >
+    <Styled(MuiBox)
+      alt="dexter"
+      className="makeStyles-logo-5"
+      component="img"
+      src="/vectors/dexter.svg"
+    />
+    <Styled(MuiBox)
+      alt="logo"
+      className="makeStyles-mobile-6"
+      component="img"
+      src="/vectors/logo.svg"
+    />
+  </Link>
+  <Styled(MuiBox)
+    alignItems="center"
+    display="flex"
+  >
+    <form>
+      <Styled(MuiBox)
+        className="makeStyles-searchField-2"
+      >
+        <input
+          className="makeStyles-inputStyle-3"
+          placeholder="Search"
+          type="text"
+        />
+        <Styled(MuiBox)
+          alt="search"
+          component="img"
+          src="/vectors/search.svg"
+        />
+      </Styled(MuiBox)>
+    </form>
+    <Styled(MuiBox)>
+      <NotificationBadge />
+      <MessageBadge
+        className="makeStyles-message-7"
+        img="/vectors/message.svg"
+      />
+      <WithStyles(ForwardRef(IconButton))
+        className="makeStyles-iconButtonStyles-4"
+      >
+        <Styled(MuiBox)
+          alt="avatar"
+          component="img"
+          src="/vectors/avatar.svg"
+        />
+      </WithStyles(ForwardRef(IconButton))>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <filter id="Rectangle_1968" x="0" y="0" width="51" height="51" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#c1b8b8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1840" data-name="Group 1840" transform="translate(-1536.5 -12376.5)">
+    <g transform="matrix(1, 0, 0, 1, 1536.5, 12376.5)" filter="url(#Rectangle_1968)">
+      <rect id="Rectangle_1968-2" data-name="Rectangle 1968" width="42" height="42" rx="10" transform="translate(2.5 2.5)" fill="#fff"/>
+    </g>
+    <g id="Group_1839" data-name="Group 1839">
+      <line id="Line_398" data-name="Line 398" x2="16" transform="translate(1551.5 12392.5)" fill="none" stroke="#ed7e81" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_399" data-name="Line 399" x2="16" transform="translate(1551.5 12400)" fill="none" stroke="#ed7e81" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_400" data-name="Line 400" x2="16" transform="translate(1551.5 12407.5)" fill="none" stroke="#ed7e81" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

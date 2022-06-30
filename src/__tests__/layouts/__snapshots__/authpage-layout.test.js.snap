@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthPage Layout should match the snapshot 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-root-1"
+  flexGrow="1"
+>
+  <Styled(MuiBox)
+    className="makeStyles-gridContainer-2"
+  >
+    <Styled(MuiBox)
+      className="makeStyles-leftFrame-3"
+    >
+      <Link
+        className="makeStyles-flexStyles-6"
+        to="/"
+      >
+        <Styled(MuiBox)
+          alt="logo"
+          component="img"
+          src="/vectors/logo.svg"
+        />
+      </Link>
+      <Styled(MuiBox)
+        className="makeStyles-imageContainer-4"
+      >
+        <Styled(MuiBox)
+          alt="office"
+          component="img"
+          display="block"
+          margin="0 auto"
+          src="/vectors/office.svg"
+        />
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      className="makeStyles-rightFrame-5"
+    >
+      <Styled(MuiBox)
+        className="makeStyles-formContainer-7"
+      >
+        <Styled(MuiBox)
+          className="makeStyles-title-8"
+          component="h2"
+          my={0}
+        />
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;

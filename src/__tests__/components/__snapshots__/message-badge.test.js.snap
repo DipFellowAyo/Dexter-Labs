@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Badge Component renders without crashing 1`] = `
+<WithStyles(ForwardRef(IconButton))
+  aria-label="message"
+>
+  <WithStyles(WithStyles(ForwardRef(Badge)))
+    badgeContent={1}
+    color="secondary"
+  >
+    <Styled(MuiBox)
+      alt="message"
+      component="img"
+    />
+  </WithStyles(WithStyles(ForwardRef(Badge)))>
+</WithStyles(ForwardRef(IconButton))>
+`;

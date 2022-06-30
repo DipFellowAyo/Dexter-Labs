@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarChart renders correctly 1`] = `
+<ForwardRef
+  data={[Function]}
+  options={
+    Object {
+      "maintainAspectRatio": true,
+      "plugins": Object {
+        "legend": false,
+      },
+      "responsive": true,
+      "scales": Object {
+        "xAxis": Object {
+          "grid": Object {
+            "display": false,
+          },
+        },
+        "y": Object {
+          "max": 1000,
+          "min": 100,
+        },
+      },
+    }
+  }
+/>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonBase Component should match snapshot 1`] = `
+<WithStyles(ForwardRef(Button))
+  className="makeStyles-buttonStyles-1"
+  color="primary"
+  disableElevation={true}
+  variant="contained"
+>
+  Click me
+</WithStyles(ForwardRef(Button))>
+`;

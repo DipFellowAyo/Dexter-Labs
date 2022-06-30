@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <filter id="Rectangle_1968" x="0" y="0" width="51" height="51" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#c1b8b8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1457" data-name="Group 1457" transform="translate(-345.5 -121.5)">
+    <g id="Group_1456" data-name="Group 1456">
+      <g transform="matrix(1, 0, 0, 1, 345.5, 121.5)" filter="url(#Rectangle_1968)">
+        <rect id="Rectangle_1968-2" data-name="Rectangle 1968" width="42" height="42" rx="10" transform="translate(2.5 2.5)" fill="#fff"/>
+      </g>
+      <circle id="Ellipse_291" data-name="Ellipse 291" cx="3" cy="3" r="3" transform="translate(358 142)" fill="#ed7e81"/>
+      <circle id="Ellipse_292" data-name="Ellipse 292" cx="3" cy="3" r="3" transform="translate(366 142)" fill="#ed7e81"/>
+      <circle id="Ellipse_293" data-name="Ellipse 293" cx="3" cy="3" r="3" transform="translate(374 142)" fill="#ed7e81"/>
+      <line id="Line_413" data-name="Line 413" x2="25" transform="translate(356.5 145.5)" fill="none" stroke="#ec7e81" stroke-linecap="round" stroke-width="6" opacity="0"/>
+      <line id="Line_414" data-name="Line 414" x2="25" transform="translate(356.5 145.5)" fill="none" stroke="#ec7e81" stroke-linecap="round" stroke-width="6" opacity="0"/>
+    </g>
+  </g>
+</svg>

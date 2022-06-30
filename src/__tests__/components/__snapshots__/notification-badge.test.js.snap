@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification Badge Component should match the snapshot 1`] = `
+<WithStyles(ForwardRef(IconButton))
+  aria-label="notification"
+  className="makeStyles-iconButtonStyle-1"
+>
+  <WithStyles(WithStyles(ForwardRef(Badge)))
+    badgeContent={3}
+    color="secondary"
+  >
+    <Styled(MuiBox)
+      alt="notification"
+      component="img"
+      src="/vectors/notification.svg"
+    />
+  </WithStyles(WithStyles(ForwardRef(Badge)))>
+</WithStyles(ForwardRef(IconButton))>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Field Error Component should match snapshots 1`] = `
+<Styled(MuiBox)
+  color="red"
+  fontSize="12px"
+  pt="2px"
+/>
+`;
